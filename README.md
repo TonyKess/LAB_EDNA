@@ -3,7 +3,8 @@ This repo covers steps used in analysis of eDNA data from Labdrador, starting wi
 wherever you plan on launching jobs really.
 
 ` git clone https://github.com/TonyKess/LAB_EDNA.git `
-`cd LAB_EDNA `
+
+` cd LAB_EDNA `
 
 1. First, we need to convert the fastq.xz files to fastq.gz files. We will do this in parallel using the script fastq_xz2gz_parallel.sh
 
