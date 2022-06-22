@@ -22,5 +22,5 @@ export projdir
 ls *xz | sed 's/.xz//' > XZfilelist
 
 # read in the list, pass to parallel, decompress with xz and recompress with gzip
-cat XZfilelist | parallel --jobs 32 ' xz -c -d {}.xz | gzip {}.gz '
+cat XZfilelist | parallel --jobs 32 ' xz -c -d {}.xz | gzip > {}.gz '
 
